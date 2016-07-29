@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    div{
-      width:47%;
-      float:left;
-      margin: 10px;
-    }
-  </style>
-  <script src = "rita.js"></script>
-</head>
+  <head>
+    <title>Dialog: Count</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      div{
+        width:47%;
+        float:left;
+        margin: 10px;
+      }
+    </style>
+    <script src = "rita.js"></script>
+    <script src="p5.js"></script>
+    <script src = "lodash.js"></script>
+  </head>
 
   <body>
     <div id ="text">
@@ -22,36 +25,59 @@
     
     <div id = "notebook">
       <h2>Composition as Explanation</h2>
-      <h4> by <a href = "http://norvig.com/chomsky.html">Markov</a> Stein (2016)</h4>
+      <h4> by Gertrude Stein (1925)</h4>
     </div>
 
     <script>
-     /**
-      * Keith O'Hara <kohara@bard.edu>
-      * July 2016
-      * L&T markov chain
-      */
+      /**
+       * Keith O'Hara <kohara@bard.edu>
+       * July 2016 
+       * L&T text visualization
+       */
 
-      var data = document.getElementById("text").innerText;
+       var lines;
+       
+       function setup() {
+       
+         var data = document.getElementById('text').innerText;
 
-      var rm = new RiMarkov(4);
-      rm.loadText(data);
-      
-      function addLine(){
-        var sentences = rm.generateSentences(1);
-        document.getElementById("notebook").innerHTML += " " + sentences;
-      
-        var t = sentences.length * 2500;
+         var count = RiTa.concordance(data, {
+           ignoreCase: true
+         });
 
-	  setTimeout(function (){
-	    addLine();
-          }, t);
-	}
+         var sortedArray = _.sortBy(_.pairs(count),
+	   function(p) {
+	     return -p[1];
+           });
 
-      setTimeout(function (){
-        addLine();
-      }, 2000);
-      </script>
+	 var canvasDiv = document.getElementById('notebook');
+	 var width = canvasDiv.offsetWidth;
+	 var sketchCanvas = createCanvas(width, 20 + 15 * sortedArray.length);
+
+	 sketchCanvas.parent("notebook");
+
+         background(60);
+ 	 noStroke();
+	 textAlign(RIGHT, TOP);
+
+         var sw = (width - 115) / sortedArray[0][1];
+	 _.map(sortedArray,
+	   function(x, i) {
+	     var y = 10 + i * 15;
+	     var w = sw * x[1] + 8;
+	     fill(240);
+	     textSize(13);
+	     text(x[0], 100, y);
+	     rect(100, y, w, 13);
+	     fill(60);
+             textSize(11);
+	     text(x[1], 103 + w, y);
+           });
+
+	// concordances
+	lines = RiTa.kwic(data, "we");
+       }
+    </script>
 
   </body>
   

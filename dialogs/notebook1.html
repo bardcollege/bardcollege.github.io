@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    div{
-      width:47%;
-      float:left;
-      margin: 10px;
-    }
+  <head>
+    <title>Dialog: Punctuation</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      div{
+        width:47%;
+        float:left;
+        margin: 10px;
+      }
+      
+      #notebook{
+        color: #161616;
+      }
 
-    #notebook{
-      color: #161616;
-    }
-
-    #notebookf {
-      color: #CED7C7;
-    }    
-  </style>
-  <script src = "rita.js"></script>
-</head>
+      #notebookf {
+        color: #CED7C7;
+      }    
+    </style>  
+  </head>
 
   <body>
     
@@ -33,35 +33,25 @@
     <div id = "notebook">
     </div>
 
-    <script>
-      /**
-      * Keith O'Hara <kohara@bard.edu>
-      * July 2016
-      * L&T text visualization II
-      */
+<script>
+/** 
+ * Keith O'Hara <kohara@bard.edu>
+ * July 2016
+ * L&T text visualization 
+ */
 
-      var punct = document.getElementById("text").innerHTML;
-      
-      // show punctuation
-      punct = punct.replace(/(; |\.|,|-|:)/ig, "<font id=notebookf>$1</font>");
-      
-      // show the & and
-      //punct = punct.replace(/(\b(the|and)\b)/ig,  "<font id=notebookf> $1 </font>");
-      
-      // show stop words
-      function replaceAll(s, lst){
-        var t = "\\b(\\" + lst.join("|\\") + ")\\b";
-        var r = new RegExp(t, "ig");
-        s = s.replace(r, "<font id=notebookf>$1</font>");
-        return s;
-      }
+var punct = document.getElementById("text").innerHTML;
 
-      var words = RiTa.STOP_WORDS;
-      words.splice(words.indexOf(";"), 1); // remove ; from the list of stop words
-      punct = replaceAll(punct, words);
+// show html tags
+//punct = punct.replace(/\<(.*?)\>/ig, "<font id=notebookf>&lt;$1&gt;</font><$1>");
 
-      document.getElementById("notebook").innerHTML += punct;
-      
+// show punctuation
+punct = punct.replace(/(; |\.|,|-|:)/ig, "<font id=notebookf>$1</font>");
+
+// show the & and
+//punct = punct.replace(/(\b(the|and)\b)/ig,  "<font id=notebookf> $1 </font>");
+
+document.getElementById("notebook").innerHTML += punct;
 </script>
 
   </body>

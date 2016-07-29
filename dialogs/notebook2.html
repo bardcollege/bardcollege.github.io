@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    div{
-      width:47%;
-      float:left;
-      margin: 10px;
-    }
+    <title>Dialog: Stop Words</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      div{
+        width:47%;
+        float:left;
+        margin: 10px;
+      }
+      
+      #notebook{
+        color: #161616;
+      }
 
-    #notebook{
-      color: #161616;
-    }
-
-    #notebookf {
-      color: #CED7C7;
-    }    
-  </style>
+      #notebookf {
+        color: #CED7C7;
+      }    
+    </style>  
+    <script src = "rita.js"></script>
 </head>
 
   <body>
@@ -32,25 +34,35 @@
     <div id = "notebook">
     </div>
 
-<script>
-/** 
- * Keith O'Hara <kohara@bard.edu>
- * July 2016
- * L&T text visualization 
- */
+    <script>
+      /**
+      * Keith O'Hara <kohara@bard.edu>
+      * July 2016
+      * L&T text visualization II
+      */
 
-var punct = document.getElementById("text").innerHTML;
+      var punct = document.getElementById("text").innerHTML;
+      
+      // show punctuation
+      punct = punct.replace(/(; |\.|,|-|:)/ig, "<font id=notebookf>$1</font>");
+      
+      // show the & and
+      //punct = punct.replace(/(\b(the|and)\b)/ig,  "<font id=notebookf> $1 </font>");
+      
+      // show stop words
+      function replaceAll(s, lst){
+        var t = "\\b(\\" + lst.join("|\\") + ")\\b";
+        var r = new RegExp(t, "ig");
+        s = s.replace(r, "<font id=notebookf>$1</font>");
+        return s;
+      }
 
-// show html tags
-//punct = punct.replace(/\<(.*?)\>/ig, "<font id=notebookf>&lt;$1&gt;</font><$1>");
+      var words = RiTa.STOP_WORDS;
+      words.splice(words.indexOf(";"), 1); // remove ; from the list of stop words
+      punct = replaceAll(punct, words);
 
-// show punctuation
-punct = punct.replace(/(; |\.|,|-|:)/ig, "<font id=notebookf>$1</font>");
-
-// show the & and
-//punct = punct.replace(/(\b(the|and)\b)/ig,  "<font id=notebookf> $1 </font>");
-
-document.getElementById("notebook").innerHTML += punct;
+      document.getElementById("notebook").innerHTML += punct;
+      
 </script>
 
   </body>

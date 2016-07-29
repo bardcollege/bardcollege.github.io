@@ -42,5 +42,12 @@ input {
   border:1px solid white;
 }
 
+.redacted{
+    background-color: #D7CEC7;
+    color: #D7CEC7;
+}
 
-
+.half{
+    width: 48%;
+    float: left;
+}

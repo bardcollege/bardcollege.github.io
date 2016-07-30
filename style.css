@@ -34,6 +34,12 @@ img{
     padding: 15px;
 }
 
+.headshot{
+    float:right;
+    height: 80px;
+    padding-top:0px;
+}
+
 input {
   width:85%;
   color: white;

@@ -1,4 +1,4 @@
-Code as Language; Code and Language
+# Code as Language; Code and Language
 
 1. "Code (or, How You Can Write Something Differently)". Kittler. Pg. 40--47.
 **Software Studies: A Lexicon**. Edited by Fuller. MIT Press. 2008.

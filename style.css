@@ -34,6 +34,12 @@ img{
     padding: 15px;
 }
 
+.headshot{
+    float:right;
+    height: 80px;
+    padding-top:0px;
+}
+
 input {
   width:85%;
   color: white;
@@ -42,5 +48,12 @@ input {
   border:1px solid white;
 }
 
+.redacted{
+    background-color: #D7CEC7;
+    color: #D7CEC7;
+}
 
-
+.half{
+    width: 48%;
+    float: left;
+}

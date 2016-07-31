@@ -1,6 +1,6 @@
 # Is Code Language?
 
-[Code; Comments; Links](index.html)
+[Markup; Comments; Links](index.html)
 
 [Structure; Symbols](w2.html)
 

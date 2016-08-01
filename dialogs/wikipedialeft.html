@@ -3,16 +3,7 @@
   <head>
     <title>Dialog: Feeling lucky</title>
     <link rel="stylesheet" href="../style.css">
-    <style>
-      #text{
-        width:0;
-        display:none;
-      }
 
-      #notebook{
-        width: 100%;
-      }
-    </style>  
   </head>
 
   <body>
@@ -29,17 +20,15 @@
     </div>
 
 <script>
-/** 
- * Keith O'Hara <kohara@bard.edu>
- * July 2016
- * L&T text visualization 
- */
+  /** 
+   * Keith O'Hara <kohara@bard.edu>
+   * July 2016
+   * L&T link all the text
+   */
 
- var punct = document.getElementById("text").innerHTML;
-
- punct = punct.replace(/(\b(?!\<)\w+(?!\>)\b)/ig,  "<a target=right href=http://en.wikipedia.org/wiki/Special:Search/$1>$1</a>");
-      
- document.getElementById("notebook").innerHTML += punct;
+   var t = document.getElementById("text").innerHTML;
+   var newt = t.replace(/(\b(?!\<)\w+(?!\>)\b)/ig,  "<a target=right href=http://en.wikipedia.org/wiki/Special:Search/$1>$1</a>");
+   document.getElementById("text").innerHTML = newt;
  
 </script>
 

@@ -1,15 +1,17 @@
 # Is Code Language?
 
-[Code; Comments; Links](index.html)
+[Markup](index.html) -- Annotation and intereptation of text; source code; links
 
-[Structure; Symbols](w2.html)
+[Structure](w1.html) -- Structured documents
 
-[Formatting; Fonts](w3.html)
+[Symbols](w2.html) -- Quotes & special characters
 
-[Images](w4.html)
+[Formatting; Fonts](w3.html) -- Aesthetics
 
-[Embedding](w5.html)
+[Images](w4.html) --  Local, Linked and Embedded
 
-[Dynamics](w6.html)
+[Embedding](w5.html) -- Multimedia and `iframes`
 
-[Interactivity](w7.html)
+[Dynamics](w6.html) -- Variation 
+
+[Interactivity](w7.html) -- Response; Pattern matching

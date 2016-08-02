@@ -1,70 +1,47 @@
----
-title: Linking Language and Thinking with Code
----
-
-<div id="main">
-
 Code as Language; Code and Language
 ===================================
 
-Readings and computational materials are organized by theme, though many
-different combinations beyond those suggested here are possible.
+Readings and computational materials are organized by theme, though many different combinations beyond those suggested here are possible.
 
 Themes
 ------
 
 -   **Language as a code**
 
-    Language seems to be one means to encode thought; the same can be
-    said for computer programs. However, explaining language and its
-    relation to codes and coding remains elusive. Can we view coding as
-    translation from thought to language? Must you understand to
-    translate?
+    Language seems to be one means to encode thought; the same can be said for computer programs. However, explaining language and its relation to codes and coding remains elusive. Can we view coding as translation from thought to language? Must you understand to translate?
 
-     Coding, ciphers, Turing and translation 
-    :   "Code (or, How You Can Write Something Differently)".
-        Kittler. Pg. 40--47. **Software Studies: A Lexicon**. Edited
-        by Fuller. MIT Press. 2008.
+     Coding, ciphers, Turing and translation   
+    "Code (or, How You Can Write Something Differently)". Kittler. Pg. 40--47. **Software Studies: A Lexicon**. Edited by Fuller. MIT Press. 2008.
 
-    Language and coding both provide tools for thought and exploration. 
-    :   **Computer Power and Human Reason**. Weizenbaum. Pg. 107 -- 110.
-        W.H. Freeman and Company. 1976.
-    :   *[Goedel, Escher, Bach]()*. Hofstadter. pp. 372 -- 383.
+    Language and coding both provide tools for thought and exploration.   
+    **Computer Power and Human Reason**. Weizenbaum. Pg. 107 -- 110. W.H. Freeman and Company. 1976.
+
+    *[Goedel, Escher, Bach]()*. Hofstadter. pp. 372 -- 383.
 
 -   **Code acts**
 
-    Both language and code react to and act on their context. However,
-    do they have the same status as tools of thought?
+    Both language and code react to and act on their context. However, do they have the same status as tools of thought?
 
-    Computer chatbot conversation partner encountered in the computing workshop. This relates to intelligence, language, and the limits of science. 
-    :   [Computer Power and Human Reason. Weizenbaum. Pg. 1 -- 16. W.H.
-        Freeman and Company.
-        1976.](https://cyborgdigitalculture.files.wordpress.com/2013/09/24-weizenbaum-03.pdf)
+    Computer chatbot conversation partner encountered in the computing workshop. This relates to intelligence, language, and the limits of science.   
+    [Computer Power and Human Reason. Weizenbaum. Pg. 1 -- 16. W.H. Freeman and Company. 1976.](https://cyborgdigitalculture.files.wordpress.com/2013/09/24-weizenbaum-03.pdf)
 
-    A recent chatbot learned to behave badly. 
-    :   [Microsoft Tay](https://en.wikipedia.org/wiki/Tay_(bot))
+    A recent chatbot learned to behave badly.   
+    [Microsoft Tay](https://en.wikipedia.org/wiki/Tay_(bot))
 
-    Sentences, whether in code or language, often have truth values. However, language and code are more often used to do something --- to act. 
-    :   ["How to do things with words",
-        Austen](http://www.ling.upenn.edu/~rnoyer/courses/103/Austin.pdf)
+    Sentences, whether in code or language, often have truth values. However, language and code are more often used to do something --- to act.   
+    ["How to do things with words", Austen](http://www.ling.upenn.edu/~rnoyer/courses/103/Austin.pdf)
 
-    These algorithms generate poetry and prose via algorithms and input data. 
-    :   [Taroku Gorge](http://nickm.com/taroko_gorge)
-    :   [Book of Changes
-        (I Ching)](http://www.onlineclarity.co.uk/reading/free-online-i-ching)
-    :   [Love
-        letters](http://bardcollege.github.io/workshop1/loveletter.js)
-    :   [Markov generator based on input text (Composition as
-        Explanation,
-        Gertrude Stein)](http://bardcollege.github.io/dialogs/notebook3.html)
+    These algorithms generate poetry and prose via algorithms and input data.   
+    [Taroku Gorge](http://nickm.com/taroko_gorge)
 
-    This one is too much and too long. We should ind a short reading on creativity with coding. 
-    :   ["Logical Induction, Machine Learning, and Human Creativity" in
-        *Switching Codes* Ganascia. pp.
-        140-159](http://www-poleia.lip6.fr/~ganascia/Publications?action=AttachFile&do=view&target=draft_SwitchingCodes.pdf)
+    [Book of Changes (I Ching)](http://www.onlineclarity.co.uk/reading/free-online-i-ching)
 
-    Creative copying in the digital age?
-    :   "Copy". Parikka. Pg. 70--76. **Software Studies: A Lexicon**.
-        Edited by Fuller. MIT Press. 2008.
+    [Love letters](http://bardcollege.github.io/workshop1/loveletter.js)
 
-</div>
+    [Markov generator based on input text (Composition as Explanation, Gertrude Stein)](http://bardcollege.github.io/dialogs/notebook3.html)
+
+    This one is too much and too long. We should ind a short reading on creativity with coding.   
+    ["Logical Induction, Machine Learning, and Human Creativity" in *Switching Codes* Ganascia. pp. 140-159](http://www-poleia.lip6.fr/~ganascia/Publications?action=AttachFile&do=view&target=draft_SwitchingCodes.pdf)
+
+    Creative copying in the digital age?  
+    "Copy". Parikka. Pg. 70--76. **Software Studies: A Lexicon**. Edited by Fuller. MIT Press. 2008.

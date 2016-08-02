@@ -12,6 +12,6 @@
 
 [Embedding](w5.html) -- Multimedia and `iframes`
 
-[Dynamics](w6.html) -- Variation 
+[Dynamics](w6.html) -- Variation, Iteration & Randomness
 
-[Interactivity](w7.html) -- Response; Pattern matching
+[Interactivity](w7.html) -- Response & Pattern matching

@@ -41,7 +41,7 @@ Themes
 
     [Book of Changes (I Ching)](http://www.onlineclarity.co.uk/reading/free-online-i-ching)
 
-    [Love letters](http://bardcollege.github.io/workshop1/loveletter.js)
+    [Love letters](http://bardcollege.github.io/dialogs/loveletter.html)
 
     [Markov generator based on input text (Composition as Explanation, Gertrude Stein)](http://bardcollege.github.io/dialogs/notebook3.html)
 

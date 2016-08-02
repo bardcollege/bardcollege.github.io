@@ -17,7 +17,7 @@ Themes
     Computer Power and Human Reason. Weizenbaum. Pg. 107 -- 110. W.H. Freeman and Company. 1976.
 
     Can you translate "slithy toves" to French?  
-    *[Goedel, Escher, Bach]()*. Hofstadter. pp. 372 -- 383.
+    Goedel, Escher, Bach. Hofstadter. pp. 372 -- 383.
 
 -   **Code acts**
 

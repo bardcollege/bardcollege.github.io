@@ -1,3 +1,7 @@
+---
+title: Linking Language and Thinking with Code
+---
+
 <div id="main">
 
 Code as Language; Code and Language

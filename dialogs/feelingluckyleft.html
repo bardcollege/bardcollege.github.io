@@ -26,7 +26,7 @@
    */
     
    var t = document.getElementById("text").innerHTML;
-   var newt = t.replace(/(\b(?!\<)\w+(?!\>)\b)/ig,  "<a target=right href=https://google.com/search?q=$1&btnI=I&sourceid=navclient>$1</a>");
+   var newt = t.replace(/(\b(?!\<)\w+(?!\>)\b)/ig,  "<a target=right href=https://google.com/search?q=$1&btnI=1&sourceid=navclient>$1</a>");
    document.getElementById("text").innerHTML = newt;
  
 </script>

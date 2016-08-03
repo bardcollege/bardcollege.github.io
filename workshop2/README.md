@@ -35,6 +35,7 @@ Themes
 
     Computer chatbot conversation partner encountered in the computing workshop. This relates to intelligence, language, and the limits of science.  
     [*Computer Power and Human Reason*. Weizenbaum. pp. 1 -- 16. W.H. Freeman and Company. 1976.](https://cyborgdigitalculture.files.wordpress.com/2013/09/24-weizenbaum-03.pdf)
+    [ELIZA]("http://bardcollege.github.io/workshop1/w7.html) from workshop-1
 
     A recent chatbot learned to behave badly.  
     [Microsoft Tay](https://en.wikipedia.org/wiki/Tay_(bot))

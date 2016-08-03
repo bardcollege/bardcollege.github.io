@@ -3,6 +3,6 @@
 
 Bard has introduced a computing component into [Language & Thinking](http://languageandthinking.bard.edu/about), its intensive writing program held during the three weeks before the first semester. The component exposes all first-year students to the power of code as language and computational thinking.
 
-- [First Workshop](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop1/); Getting started with [Github](http://bardcollege.github.io/github_tutorial.pdf)
+- [First Workshop: Reading and Writing the Web](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop1/); Getting started with [Github](http://bardcollege.github.io/github_tutorial.pdf)
 - [Computational Dialogues](https://github.com/bardcollege/bardcollege.github.io/tree/master/dialogs/)
-- [Second Workshop](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop2/)
+- [Second Workshop: Code as Language](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop2/)

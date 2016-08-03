@@ -62,6 +62,9 @@ Themes
     Monfort's [Taroku Gorge](http://nickm.com/taroko_gorge)
 
     [Markov generator based on input text (Composition as Explanation, Gertrude Stein)](http://bardcollege.github.io/dialogs/notebook3.html)
+    
+    Programming as a Creative Act
+    ["Computer Programming as an Art"](http://dl.acm.org/citation.cfm?id=361612). Knuth. 1974 ACM Turing Award Lecture.
 
     Machine Creativity
     ["Logical Induction, Machine Learning, and Human Creativity"](http://www-poleia.lip6.fr/~ganascia/Publications?action=AttachFile&do=view&target=draft_SwitchingCodes.pdf). Ganascia. *Switching Codes*. Edited by Bartscherer and Coover. pp. 140-151

@@ -1,5 +1,5 @@
 # [Linking](http://bardcollege.github.io/) [Language and Thinking](http://languageandthinking.bard.edu/) with Code 
-[2016 Edition](http://bardcollege.github.com) * [2015 Edition](http://bard.jsbin.com)
+[2016 Edition](http://bardcollege.github.io) | [2015 Edition](http://bard.jsbin.com)
 
 Bard has introduced a computing component into [Language & Thinking](http://languageandthinking.bard.edu/about), its intensive writing program held during the three weeks before the first semester. The component exposes all first-year students to the power of code as language and computational thinking.
 

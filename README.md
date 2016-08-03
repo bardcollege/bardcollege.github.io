@@ -5,4 +5,4 @@ Bard has introduced a computing component into [Language & Thinking](http://lang
 
 - [First Workshop: Reading and Writing the Web](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop1/); Getting started with [Github](http://bardcollege.github.io/github_tutorial.pdf)
 - [Computational Dialogues](https://github.com/bardcollege/bardcollege.github.io/tree/master/dialogs/)
-- [Second Workshop: Code as Language](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop2/)
+- [Second Workshop: Code and Language](https://github.com/bardcollege/bardcollege.github.io/tree/master/workshop2/)

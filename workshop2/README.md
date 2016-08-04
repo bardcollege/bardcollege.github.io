@@ -16,7 +16,7 @@ Themes
     Sapir-Whorf Hypothesis; "The Medium is the Message"
     "Languaging". *Teaching as Subversive Activity*. Postman and Weingartner. pp. 98--108. </dd>
 
-    Language and coding as tools for thought exploration, and experimentation.
+    Language and coding as tools for thought, exploration, and experimentation.
     Computer Power and Human Reason. Weizenbaum. pp. 107 -- 110. W.H. Freeman and Company. 1976.
 
     Can you translate "slithy toves" to French?  

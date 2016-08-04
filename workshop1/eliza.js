@@ -100,7 +100,7 @@ var rules = {
     "In what way?",
     "What similarities are there?",
   ],
-  "~* same ~*y": [
+  "~*x same ~*y": [
     "What other connections do you see?",
   ],
   "~*x no ~*y": [

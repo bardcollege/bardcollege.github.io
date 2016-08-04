@@ -53,15 +53,15 @@ Themes
 
     These algorithms generate poetry and prose via algorithms and input data.  
 
-    [Quote Generator]("http://bardcollege.github.io/workshop1/w6.html") and [ELIZA]("http://bardcollege.github.io/workshop1/w7.html) from workshop-1
+    - [Quote Generator]("http://bardcollege.github.io/workshop1/w6.html") and [ELIZA]("http://bardcollege.github.io/workshop1/w7.html) from workshop-1
     
-    [Book of Changes (I Ching)](http://www.onlineclarity.co.uk/reading/free-online-i-ching)
+    - [Book of Changes (I Ching)](http://www.onlineclarity.co.uk/reading/free-online-i-ching)
 
-    Strachey [Love letters](http://bardcollege.github.io/dialogs/loveletter.html)
+    - Strachey [Love letters](http://bardcollege.github.io/dialogs/loveletter.html)
 
-    Monfort's [Taroku Gorge](http://nickm.com/taroko_gorge)
+    - Monfort's [Taroku Gorge](http://nickm.com/taroko_gorge)
 
-    [Markov generator based on input text (Composition as Explanation, Gertrude Stein)](http://bardcollege.github.io/dialogs/notebook3.html)
+    - [Markov generator based on input text (Composition as Explanation, Gertrude Stein)](http://bardcollege.github.io/dialogs/notebook3.html)
     
     Programming as a Creative Act
     ["Computer Programming as an Art"](http://dl.acm.org/citation.cfm?id=361612). Knuth. 1974 ACM Turing Award Lecture.

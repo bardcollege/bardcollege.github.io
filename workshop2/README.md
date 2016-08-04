@@ -17,7 +17,7 @@ Themes
     "Languaging". *Teaching as Subversive Activity*. Postman and Weingartner. pp. 98--108. </dd>
 
     Language and code as tools for thought, exploration, and experimentation.
-    Computer Power and Human Reason. Weizenbaum. pp. 107 -- 110. W.H. Freeman and Company. 1976.
+    *Computer Power and Human Reason*. Weizenbaum. pp. 107 -- 110. W.H. Freeman and Company. 1976.
 
     Can you translate "slithy toves" to French?  
     *Goedel, Escher, Bach*. Hofstadter. pp. 372 -- 383. Basic books. 1979.

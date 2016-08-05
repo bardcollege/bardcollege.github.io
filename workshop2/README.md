@@ -51,8 +51,11 @@ Themes
     "Copy". Parikka. pp. 70--76. *Software Studies: A Lexicon*. Edited
     by Fuller. MIT Press. 2008.
 
-    These algorithms generate poetry and prose via algorithms and input data.  
 
+    Algorithms that generate poetry and prose via algorithms and input data.  
+
+    - [What Is E-Poetry?](http://iloveepoetry.com/?p=11968). Flores.
+    
     - [Quote Generator]("http://bardcollege.github.io/workshop1/w6.html") and [ELIZA]("http://bardcollege.github.io/workshop1/w7.html) from workshop-1
     
     - [Book of Changes (I Ching)](http://www.onlineclarity.co.uk/reading/free-online-i-ching)

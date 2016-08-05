@@ -10,9 +10,6 @@ var castles = ["museums", "bridges", "cities"]
 var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
 var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
 
-var is = ["is", "is not", "is like", "includes", "excludes", "is beyond",
-	  "extends", "encodes", "represents", "signifies", "consists of"];
-
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
     return i;
@@ -40,6 +37,10 @@ q.innerHTML =
     "\u2014" +  "Fred Brooks, " + programmer;
 
 q.innerHTML += "<br><br><br>";
+
+
+var is = ["is", "is not", "is like", "includes", "excludes", "is beyond",
+	  "extends", "encodes", "represents", "signifies", "consists of"];
 
 for (var i = 0; i < is.length; i++){
     q.innerHTML += "Code " + is[i] + " language. <br>";

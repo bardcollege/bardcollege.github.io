@@ -26,8 +26,9 @@ var castles = choose(castles);
 var exertion = choose(exertions);
 var air = choose(airs);
 
-var t = document.getElementById("thing").innerHTML = thing;
-var p = document.getElementById("person").innerHTML = programmer + "s";
+document.getElementById("thing").innerHTML = thing;
+document.getElementById("person").innerHTML = programmer + "s";
+
 var q = document.getElementById("quote");
 
 q.innerHTML =
@@ -42,7 +43,7 @@ q.innerHTML += "<br><br><br>";
 var is = ["is", "is not", "is like", "includes", "excludes", "is beyond",
 	  "extends", "encodes", "represents", "signifies", "consists of"];
 
-for (var i = 0; i < is.length; i++){
+for (var i = 0; i < is.length; i = i + 1){
     q.innerHTML += "Code " + is[i] + " language. <br>";
     q.innerHTML += "Language " + is[i] + " code. <br>";
 }

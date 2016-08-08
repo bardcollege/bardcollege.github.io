@@ -159,15 +159,6 @@ var rules = {
     "Did you think they might not be ~y?",
     "Possibly they are ~y",
   ],
-  "~x is ~*y": [
-      "what is ~x anyway?",
-      "what is ~y anyway?",
-  ],
-  "~x is ~y": [
-      "Did you think it might not be ~y?",
-      "Possibly it is ~y",
-      "Possibly it is not ~y",
-  ],
    "~*x are you ~*y": [
     "Why are you interested in whether I am ~y or not?",
     "Would you prefer if I weren't ~y ?",

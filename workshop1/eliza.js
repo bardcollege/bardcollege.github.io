@@ -139,7 +139,7 @@ var rules = {
   "~x is ~*y": [
     "Did you think it might not be ~y?",
     "Possibly it is ~y",
-    "Possibly it is not ~y",
+    "Possibly it is not the case that ~y",
     "what is ~x anyway?",
     "what is ~y anyway?",
   ],

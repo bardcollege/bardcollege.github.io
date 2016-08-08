@@ -274,7 +274,7 @@ function respond(input) {
   for (var variable in replacements) {
     var replacement = replacements[variable];
     replacement = switch_viewpoint(replacement).join(' ');
-    if (replacement) response = response.replace('~' + variable, replacement);
+    if (replacement != null) response = response.replace('~' + variable, replacement);
   }
 
   return response;

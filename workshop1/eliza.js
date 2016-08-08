@@ -1,7 +1,30 @@
 /**
  * Keith O'Hara <kohara@bard.edu>
  * July 2016
- * ported ELIZA (https://github.com/dhconnelly/paip-python) to javascript
+ * ported ELIZA (https://github.com/dhconnelly/paip-python) to javascript;
+ * from that program:
+ * 
+ *  "Eliza is a pattern-matching automated psychiatrist. Given a set
+ *   of rules in the form of input/output patterns, Eliza will attempt
+ *   to recognize user input phrases and generate relevant
+ *   psychobabble responses.
+ * 
+ *   Each rule is specified by an input pattern and a list of output
+ *   patterns. A pattern is a sentence consisting of space-separated
+ *   words and variables. Input pattern variables come in two forms:
+ *   single variables and segment variables; single variables (which
+ *   take the form ~x) match a single word, while segment variables
+ *   (which take the form ~*x) can match a phrase. Output pattern
+ *   variables are only single variables. The variable names contained
+ *   in an input pattern should be the same as those in the
+ *   corresponding output pattern, and each segment variable ~*x in an
+ *   input pattern corresponds to the single variable ~x in the output
+ *   pattern.
+ *
+ *   The conversation proceeds by reading a sentence from the user,
+ *   searching through the rules to find an input pattern that
+ *   matches, replacing variables in the output pattern, and displaying
+ *   the results to the user."
  */
 
 var rules = {

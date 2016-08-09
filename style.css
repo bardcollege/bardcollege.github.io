@@ -41,11 +41,11 @@ img{
 }
 
 input {
-  width:70%;
-  color: white;
-  background:gray;
-  padding: 4px;
-  border:1px solid white;
+    width:70%;
+    color: white;
+    background:gray;
+    padding: 4px;
+    border:1px solid white;
 }
 
 .redacted{

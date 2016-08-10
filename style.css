@@ -47,7 +47,7 @@ img{
 .textbox {
     width:70%;
     color: white;
-    font-size: 150%;
+    font-size: 125%;
     background:gray;
     padding: 4px;
     border:1px solid white;
@@ -55,7 +55,7 @@ img{
 
 .button {
     background: white;
-    font-size: 150%;
+    font-size: 125%;
     color:gray;
     padding: 4px;
     border:2px solid white;

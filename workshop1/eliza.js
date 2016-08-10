@@ -114,7 +114,7 @@ var rules = {
     "What resemblence do you see between ~x and ~y?",
   ],
   "~*x is like ~*y": [
-    "In what way is it that ~ is like ~y?",
+    "In what way is it that ~x is like ~y?",
     "What resemblence do you see?",
     "Could there really be some connection?",
     "How?",
@@ -443,10 +443,13 @@ function remove_punct(string) {
   return string.replace(/[^A-Za-z_]/g, " ");
 }
 
-document.getElementById("query").addEventListener("keyup", function(event) {
-    event.preventDefault();
-    if (event.keyCode == 13) {
-        document.getElementById("submit").click();
-    }
-});
 
+window.onload = function(){
+    document.getElementById("query").addEventListener("keyup", function(event) {
+	event.preventDefault();
+	if (event.keyCode == 13) {
+            document.getElementById("submit").click();
+	    console.log("GO!");
+	}
+    });
+}

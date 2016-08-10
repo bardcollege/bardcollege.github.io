@@ -1,6 +1,8 @@
 body {
     background-color: #161616;
     color: #D7CEC7;
+    font-size: 150%;
+    line-height: 1.4;
 }
 
 h1{
@@ -20,8 +22,6 @@ h2{
 
 #main {
     padding: 20px;
-    font-size: 150%;
-    line-height: 1.4;
 }
 
 a {
@@ -44,12 +44,21 @@ img{
     padding-top:0px;
 }
 
-input {
+.textbox {
     width:70%;
     color: white;
+    font-size: 150%;
     background:gray;
     padding: 4px;
     border:1px solid white;
+}
+
+.button {
+    background: white;
+    font-size: 150%;
+    color:gray;
+    padding: 4px;
+    border:2px solid white;
 }
 
 .redacted{

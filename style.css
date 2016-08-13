@@ -1,6 +1,6 @@
 body {
-    background-color: #161616;
-    color: #D7CEC7;
+    background-color: rgb(22, 22, 22);
+    color: rgb(215, 206, 199);
     font-size: 150%;
     line-height: 1.4;
 }
@@ -13,7 +13,7 @@ h1{
 
 h3{
     margin:0px;
-    color: #CED7A7;
+    color: rgb(206, 216, 167);
 }
 
 h2{
@@ -25,12 +25,12 @@ h2{
 }
 
 a {
-    color: #32763F;
+    color: rgb(50, 118, 63);
     text-decoration: none;
 }
 
 a:visited {
-    color: #9FC080;
+    color: rgb(159, 192, 128);
     text-decoration: none;
 }
 
@@ -62,8 +62,8 @@ img{
 }
 
 .redacted{
-    background-color: #D7CEC7;
-    color: #D7CEC7;
+    background-color: rgb(215, 206, 199);
+    color:  rgb(215, 206, 199);
 }
 
 .half{
